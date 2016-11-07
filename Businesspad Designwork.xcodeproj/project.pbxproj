@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DF931BE1DD046CF00F49AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931BD1DD046CF00F49AA2 /* main.m */; };
+		6DF931C11DD046CF00F49AA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931C01DD046CF00F49AA2 /* AppDelegate.m */; };
+		6DF931CC1DD046D000F49AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF931CA1DD046D000F49AA2 /* LaunchScreen.storyboard */; };
+		6DF931D51DD047BF00F49AA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931D41DD047BF00F49AA2 /* ViewController.m */; };
+		6DF931D81DD047CE00F49AA2 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931D71DD047CE00F49AA2 /* SignUpViewController.m */; };
+		6DF931DB1DD047D700F49AA2 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931DA1DD047D700F49AA2 /* RegistrationViewController.m */; };
+		6DF931DE1DD047F200F49AA2 /* RegistrationPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931DD1DD047F200F49AA2 /* RegistrationPhoneViewController.m */; };
+		6DF931E11DD047FB00F49AA2 /* RegistrationOtpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931E01DD047FB00F49AA2 /* RegistrationOtpViewController.m */; };
+		6DF931E41DD0480600F49AA2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931E31DD0480600F49AA2 /* LoginViewController.m */; };
+		6DF931E71DD0481000F49AA2 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931E61DD0481000F49AA2 /* LandingViewController.m */; };
+		6DF931EA1DD0481900F49AA2 /* sidemenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931E91DD0481900F49AA2 /* sidemenuViewController.m */; };
+		6DF931ED1DD0482300F49AA2 /* VehicleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931EC1DD0482300F49AA2 /* VehicleViewController.m */; };
+		6DF931F01DD0483000F49AA2 /* VehicleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931EF1DD0483000F49AA2 /* VehicleDetailsViewController.m */; };
+		6DF931F31DD0483B00F49AA2 /* VehicleParkingFessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931F21DD0483B00F49AA2 /* VehicleParkingFessViewController.m */; };
+		6DF931F61DD0484700F49AA2 /* REPagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931F51DD0484700F49AA2 /* REPagedScrollView.m */; };
+		6DF931F91DD0485000F49AA2 /* MyAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931F81DD0485000F49AA2 /* MyAccountsViewController.m */; };
+		6DF931FC1DD0485A00F49AA2 /* InvoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931FB1DD0485A00F49AA2 /* InvoiceViewController.m */; };
+		6DF931FF1DD0486300F49AA2 /* AddInvoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931FE1DD0486300F49AA2 /* AddInvoiceViewController.m */; };
+		6DF932021DD0486D00F49AA2 /* AddItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF932011DD0486D00F49AA2 /* AddItemsViewController.m */; };
+		6DF932051DD0487400F49AA2 /* AddClientDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF932041DD0487400F49AA2 /* AddClientDetailsViewController.m */; };
+		6DF932081DD0487D00F49AA2 /* EditClientDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF932071DD0487D00F49AA2 /* EditClientDetailsViewController.m */; };
+		6DF932121DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9320A1DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.m */; };
+		6DF932131DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9320B1DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.xib */; };
+		6DF932141DD048B900F49AA2 /* VehicleInsuranceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9320D1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.m */; };
+		6DF932151DD048B900F49AA2 /* VehicleInsuranceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9320E1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.xib */; };
+		6DF932161DD048B900F49AA2 /* VehicleSmogViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF932101DD048B900F49AA2 /* VehicleSmogViewTableViewCell.m */; };
+		6DF932171DD048B900F49AA2 /* VehicleSmogViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932111DD048B900F49AA2 /* VehicleSmogViewTableViewCell.xib */; };
+		6DF932241DD048E600F49AA2 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932181DD048E600F49AA2 /* login.png */; };
+		6DF932251DD048E600F49AA2 /* name-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932191DD048E600F49AA2 /* name-account.png */; };
+		6DF932261DD048E600F49AA2 /* mail-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9321A1DD048E600F49AA2 /* mail-account.png */; };
+		6DF932271DD048E600F49AA2 /* phone-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9321B1DD048E600F49AA2 /* phone-account.png */; };
+		6DF932281DD048E600F49AA2 /* password-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9321C1DD048E600F49AA2 /* password-account.png */; };
+		6DF932291DD048E600F49AA2 /* currency-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9321D1DD048E600F49AA2 /* currency-account.png */; };
+		6DF9322A1DD048E600F49AA2 /* location-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9321E1DD048E600F49AA2 /* location-account.png */; };
+		6DF9322B1DD048E600F49AA2 /* closeaccount-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9321F1DD048E600F49AA2 /* closeaccount-account.png */; };
+		6DF9322C1DD048E600F49AA2 /* camera-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932201DD048E600F49AA2 /* camera-account.png */; };
+		6DF9322D1DD048E600F49AA2 /* facebook-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932211DD048E600F49AA2 /* facebook-account.png */; };
+		6DF9322E1DD048E600F49AA2 /* gmail-account.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932221DD048E600F49AA2 /* gmail-account.png */; };
+		6DF9322F1DD048E600F49AA2 /* ProfileCat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932231DD048E600F49AA2 /* ProfileCat.jpg */; };
+		6DF932311DD0495700F49AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932301DD0495700F49AA2 /* Assets.xcassets */; };
+		6DF932341DD049D700F49AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF932331DD049D700F49AA2 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DF931B91DD046CF00F49AA2 /* Businesspad Designwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Businesspad Designwork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF931BD1DD046CF00F49AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DF931BF1DD046CF00F49AA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DF931C01DD046CF00F49AA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DF931CB1DD046D000F49AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DF931CD1DD046D000F49AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF931D31DD047BF00F49AA2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DF931D41DD047BF00F49AA2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DF931D61DD047CE00F49AA2 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		6DF931D71DD047CE00F49AA2 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		6DF931D91DD047D700F49AA2 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		6DF931DA1DD047D700F49AA2 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		6DF931DC1DD047F200F49AA2 /* RegistrationPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationPhoneViewController.h; sourceTree = "<group>"; };
+		6DF931DD1DD047F200F49AA2 /* RegistrationPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationPhoneViewController.m; sourceTree = "<group>"; };
+		6DF931DF1DD047FB00F49AA2 /* RegistrationOtpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationOtpViewController.h; sourceTree = "<group>"; };
+		6DF931E01DD047FB00F49AA2 /* RegistrationOtpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationOtpViewController.m; sourceTree = "<group>"; };
+		6DF931E21DD0480600F49AA2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		6DF931E31DD0480600F49AA2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6DF931E51DD0481000F49AA2 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		6DF931E61DD0481000F49AA2 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		6DF931E81DD0481900F49AA2 /* sidemenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sidemenuViewController.h; sourceTree = "<group>"; };
+		6DF931E91DD0481900F49AA2 /* sidemenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sidemenuViewController.m; sourceTree = "<group>"; };
+		6DF931EB1DD0482300F49AA2 /* VehicleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleViewController.h; sourceTree = "<group>"; };
+		6DF931EC1DD0482300F49AA2 /* VehicleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleViewController.m; sourceTree = "<group>"; };
+		6DF931EE1DD0483000F49AA2 /* VehicleDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleDetailsViewController.h; sourceTree = "<group>"; };
+		6DF931EF1DD0483000F49AA2 /* VehicleDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleDetailsViewController.m; sourceTree = "<group>"; };
+		6DF931F11DD0483B00F49AA2 /* VehicleParkingFessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleParkingFessViewController.h; sourceTree = "<group>"; };
+		6DF931F21DD0483B00F49AA2 /* VehicleParkingFessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleParkingFessViewController.m; sourceTree = "<group>"; };
+		6DF931F41DD0484700F49AA2 /* REPagedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REPagedScrollView.h; sourceTree = "<group>"; };
+		6DF931F51DD0484700F49AA2 /* REPagedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REPagedScrollView.m; sourceTree = "<group>"; };
+		6DF931F71DD0485000F49AA2 /* MyAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAccountsViewController.h; sourceTree = "<group>"; };
+		6DF931F81DD0485000F49AA2 /* MyAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAccountsViewController.m; sourceTree = "<group>"; };
+		6DF931FA1DD0485A00F49AA2 /* InvoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceViewController.h; sourceTree = "<group>"; };
+		6DF931FB1DD0485A00F49AA2 /* InvoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceViewController.m; sourceTree = "<group>"; };
+		6DF931FD1DD0486300F49AA2 /* AddInvoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddInvoiceViewController.h; sourceTree = "<group>"; };
+		6DF931FE1DD0486300F49AA2 /* AddInvoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddInvoiceViewController.m; sourceTree = "<group>"; };
+		6DF932001DD0486D00F49AA2 /* AddItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemsViewController.h; sourceTree = "<group>"; };
+		6DF932011DD0486D00F49AA2 /* AddItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemsViewController.m; sourceTree = "<group>"; };
+		6DF932031DD0487400F49AA2 /* AddClientDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClientDetailsViewController.h; sourceTree = "<group>"; };
+		6DF932041DD0487400F49AA2 /* AddClientDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClientDetailsViewController.m; sourceTree = "<group>"; };
+		6DF932061DD0487D00F49AA2 /* EditClientDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditClientDetailsViewController.h; sourceTree = "<group>"; };
+		6DF932071DD0487D00F49AA2 /* EditClientDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditClientDetailsViewController.m; sourceTree = "<group>"; };
+		6DF932091DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleParkingFeesTableViewCell.h; sourceTree = "<group>"; };
+		6DF9320A1DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleParkingFeesTableViewCell.m; sourceTree = "<group>"; };
+		6DF9320B1DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleParkingFeesTableViewCell.xib; sourceTree = "<group>"; };
+		6DF9320C1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInsuranceTableViewCell.h; sourceTree = "<group>"; };
+		6DF9320D1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInsuranceTableViewCell.m; sourceTree = "<group>"; };
+		6DF9320E1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleInsuranceTableViewCell.xib; sourceTree = "<group>"; };
+		6DF9320F1DD048B900F49AA2 /* VehicleSmogViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleSmogViewTableViewCell.h; sourceTree = "<group>"; };
+		6DF932101DD048B900F49AA2 /* VehicleSmogViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleSmogViewTableViewCell.m; sourceTree = "<group>"; };
+		6DF932111DD048B900F49AA2 /* VehicleSmogViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleSmogViewTableViewCell.xib; sourceTree = "<group>"; };
+		6DF932181DD048E600F49AA2 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		6DF932191DD048E600F49AA2 /* name-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "name-account.png"; sourceTree = "<group>"; };
+		6DF9321A1DD048E600F49AA2 /* mail-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail-account.png"; sourceTree = "<group>"; };
+		6DF9321B1DD048E600F49AA2 /* phone-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-account.png"; sourceTree = "<group>"; };
+		6DF9321C1DD048E600F49AA2 /* password-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "password-account.png"; sourceTree = "<group>"; };
+		6DF9321D1DD048E600F49AA2 /* currency-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "currency-account.png"; sourceTree = "<group>"; };
+		6DF9321E1DD048E600F49AA2 /* location-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location-account.png"; sourceTree = "<group>"; };
+		6DF9321F1DD048E600F49AA2 /* closeaccount-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeaccount-account.png"; sourceTree = "<group>"; };
+		6DF932201DD048E600F49AA2 /* camera-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-account.png"; sourceTree = "<group>"; };
+		6DF932211DD048E600F49AA2 /* facebook-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-account.png"; sourceTree = "<group>"; };
+		6DF932221DD048E600F49AA2 /* gmail-account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gmail-account.png"; sourceTree = "<group>"; };
+		6DF932231DD048E600F49AA2 /* ProfileCat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProfileCat.jpg; sourceTree = "<group>"; };
+		6DF932301DD0495700F49AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DF932321DD049AF00F49AA2 /* REPagedScrollViewExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "REPagedScrollViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		6DF932331DD049D700F49AA2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DF931B61DD046CF00F49AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DF931B01DD046CF00F49AA2 = {
+			isa = PBXGroup;
+			children = (
+				6DF931BB1DD046CF00F49AA2 /* Businesspad Designwork */,
+				6DF931BA1DD046CF00F49AA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DF931BA1DD046CF00F49AA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DF931B91DD046CF00F49AA2 /* Businesspad Designwork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DF931BB1DD046CF00F49AA2 /* Businesspad Designwork */ = {
+			isa = PBXGroup;
+			children = (
+				6DF931BF1DD046CF00F49AA2 /* AppDelegate.h */,
+				6DF931C01DD046CF00F49AA2 /* AppDelegate.m */,
+				6DF931D31DD047BF00F49AA2 /* ViewController.h */,
+				6DF931D41DD047BF00F49AA2 /* ViewController.m */,
+				6DF931D61DD047CE00F49AA2 /* SignUpViewController.h */,
+				6DF931D71DD047CE00F49AA2 /* SignUpViewController.m */,
+				6DF931D91DD047D700F49AA2 /* RegistrationViewController.h */,
+				6DF931DA1DD047D700F49AA2 /* RegistrationViewController.m */,
+				6DF931DC1DD047F200F49AA2 /* RegistrationPhoneViewController.h */,
+				6DF931DD1DD047F200F49AA2 /* RegistrationPhoneViewController.m */,
+				6DF931DF1DD047FB00F49AA2 /* RegistrationOtpViewController.h */,
+				6DF931E01DD047FB00F49AA2 /* RegistrationOtpViewController.m */,
+				6DF931E21DD0480600F49AA2 /* LoginViewController.h */,
+				6DF931E31DD0480600F49AA2 /* LoginViewController.m */,
+				6DF931E51DD0481000F49AA2 /* LandingViewController.h */,
+				6DF931E61DD0481000F49AA2 /* LandingViewController.m */,
+				6DF931E81DD0481900F49AA2 /* sidemenuViewController.h */,
+				6DF931E91DD0481900F49AA2 /* sidemenuViewController.m */,
+				6DF931EB1DD0482300F49AA2 /* VehicleViewController.h */,
+				6DF931EC1DD0482300F49AA2 /* VehicleViewController.m */,
+				6DF931EE1DD0483000F49AA2 /* VehicleDetailsViewController.h */,
+				6DF931EF1DD0483000F49AA2 /* VehicleDetailsViewController.m */,
+				6DF931F11DD0483B00F49AA2 /* VehicleParkingFessViewController.h */,
+				6DF931F21DD0483B00F49AA2 /* VehicleParkingFessViewController.m */,
+				6DF931F41DD0484700F49AA2 /* REPagedScrollView.h */,
+				6DF931F51DD0484700F49AA2 /* REPagedScrollView.m */,
+				6DF932321DD049AF00F49AA2 /* REPagedScrollViewExample-Prefix.pch */,
+				6DF931F71DD0485000F49AA2 /* MyAccountsViewController.h */,
+				6DF931F81DD0485000F49AA2 /* MyAccountsViewController.m */,
+				6DF931FA1DD0485A00F49AA2 /* InvoiceViewController.h */,
+				6DF931FB1DD0485A00F49AA2 /* InvoiceViewController.m */,
+				6DF931FD1DD0486300F49AA2 /* AddInvoiceViewController.h */,
+				6DF931FE1DD0486300F49AA2 /* AddInvoiceViewController.m */,
+				6DF932001DD0486D00F49AA2 /* AddItemsViewController.h */,
+				6DF932011DD0486D00F49AA2 /* AddItemsViewController.m */,
+				6DF932031DD0487400F49AA2 /* AddClientDetailsViewController.h */,
+				6DF932041DD0487400F49AA2 /* AddClientDetailsViewController.m */,
+				6DF932061DD0487D00F49AA2 /* EditClientDetailsViewController.h */,
+				6DF932071DD0487D00F49AA2 /* EditClientDetailsViewController.m */,
+				6DF932091DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.h */,
+				6DF9320A1DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.m */,
+				6DF9320B1DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.xib */,
+				6DF9320C1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.h */,
+				6DF9320D1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.m */,
+				6DF9320E1DD048B900F49AA2 /* VehicleInsuranceTableViewCell.xib */,
+				6DF9320F1DD048B900F49AA2 /* VehicleSmogViewTableViewCell.h */,
+				6DF932101DD048B900F49AA2 /* VehicleSmogViewTableViewCell.m */,
+				6DF932111DD048B900F49AA2 /* VehicleSmogViewTableViewCell.xib */,
+				6DF931CA1DD046D000F49AA2 /* LaunchScreen.storyboard */,
+				6DF932331DD049D700F49AA2 /* Main.storyboard */,
+				6DF931CD1DD046D000F49AA2 /* Info.plist */,
+				6DF932301DD0495700F49AA2 /* Assets.xcassets */,
+				6DF931BC1DD046CF00F49AA2 /* Supporting Files */,
+			);
+			path = "Businesspad Designwork";
+			sourceTree = "<group>";
+		};
+		6DF931BC1DD046CF00F49AA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DF932181DD048E600F49AA2 /* login.png */,
+				6DF932191DD048E600F49AA2 /* name-account.png */,
+				6DF9321A1DD048E600F49AA2 /* mail-account.png */,
+				6DF9321B1DD048E600F49AA2 /* phone-account.png */,
+				6DF9321C1DD048E600F49AA2 /* password-account.png */,
+				6DF9321D1DD048E600F49AA2 /* currency-account.png */,
+				6DF9321E1DD048E600F49AA2 /* location-account.png */,
+				6DF9321F1DD048E600F49AA2 /* closeaccount-account.png */,
+				6DF932201DD048E600F49AA2 /* camera-account.png */,
+				6DF932211DD048E600F49AA2 /* facebook-account.png */,
+				6DF932221DD048E600F49AA2 /* gmail-account.png */,
+				6DF932231DD048E600F49AA2 /* ProfileCat.jpg */,
+				6DF931BD1DD046CF00F49AA2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DF931B81DD046CF00F49AA2 /* Businesspad Designwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF931D01DD046D000F49AA2 /* Build configuration list for PBXNativeTarget "Businesspad Designwork" */;
+			buildPhases = (
+				6DF931B51DD046CF00F49AA2 /* Sources */,
+				6DF931B61DD046CF00F49AA2 /* Frameworks */,
+				6DF931B71DD046CF00F49AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Businesspad Designwork";
+			productName = "Businesspad Designwork";
+			productReference = 6DF931B91DD046CF00F49AA2 /* Businesspad Designwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DF931B11DD046CF00F49AA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Madu Venkata Dinesh Goud";
+				TargetAttributes = {
+					6DF931B81DD046CF00F49AA2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C28W5U8WSE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6DF931B41DD046CF00F49AA2 /* Build configuration list for PBXProject "Businesspad Designwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DF931B01DD046CF00F49AA2;
+			productRefGroup = 6DF931BA1DD046CF00F49AA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DF931B81DD046CF00F49AA2 /* Businesspad Designwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DF931B71DD046CF00F49AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF931CC1DD046D000F49AA2 /* LaunchScreen.storyboard in Resources */,
+				6DF932281DD048E600F49AA2 /* password-account.png in Resources */,
+				6DF9322C1DD048E600F49AA2 /* camera-account.png in Resources */,
+				6DF9322B1DD048E600F49AA2 /* closeaccount-account.png in Resources */,
+				6DF932151DD048B900F49AA2 /* VehicleInsuranceTableViewCell.xib in Resources */,
+				6DF932291DD048E600F49AA2 /* currency-account.png in Resources */,
+				6DF932131DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.xib in Resources */,
+				6DF932271DD048E600F49AA2 /* phone-account.png in Resources */,
+				6DF932171DD048B900F49AA2 /* VehicleSmogViewTableViewCell.xib in Resources */,
+				6DF9322D1DD048E600F49AA2 /* facebook-account.png in Resources */,
+				6DF932251DD048E600F49AA2 /* name-account.png in Resources */,
+				6DF9322A1DD048E600F49AA2 /* location-account.png in Resources */,
+				6DF9322F1DD048E600F49AA2 /* ProfileCat.jpg in Resources */,
+				6DF9322E1DD048E600F49AA2 /* gmail-account.png in Resources */,
+				6DF932241DD048E600F49AA2 /* login.png in Resources */,
+				6DF932341DD049D700F49AA2 /* Main.storyboard in Resources */,
+				6DF932311DD0495700F49AA2 /* Assets.xcassets in Resources */,
+				6DF932261DD048E600F49AA2 /* mail-account.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DF931B51DD046CF00F49AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF931F61DD0484700F49AA2 /* REPagedScrollView.m in Sources */,
+				6DF932021DD0486D00F49AA2 /* AddItemsViewController.m in Sources */,
+				6DF931E41DD0480600F49AA2 /* LoginViewController.m in Sources */,
+				6DF931D51DD047BF00F49AA2 /* ViewController.m in Sources */,
+				6DF931FF1DD0486300F49AA2 /* AddInvoiceViewController.m in Sources */,
+				6DF931C11DD046CF00F49AA2 /* AppDelegate.m in Sources */,
+				6DF932051DD0487400F49AA2 /* AddClientDetailsViewController.m in Sources */,
+				6DF932161DD048B900F49AA2 /* VehicleSmogViewTableViewCell.m in Sources */,
+				6DF931DE1DD047F200F49AA2 /* RegistrationPhoneViewController.m in Sources */,
+				6DF931EA1DD0481900F49AA2 /* sidemenuViewController.m in Sources */,
+				6DF931E11DD047FB00F49AA2 /* RegistrationOtpViewController.m in Sources */,
+				6DF931DB1DD047D700F49AA2 /* RegistrationViewController.m in Sources */,
+				6DF931F91DD0485000F49AA2 /* MyAccountsViewController.m in Sources */,
+				6DF931D81DD047CE00F49AA2 /* SignUpViewController.m in Sources */,
+				6DF931ED1DD0482300F49AA2 /* VehicleViewController.m in Sources */,
+				6DF931E71DD0481000F49AA2 /* LandingViewController.m in Sources */,
+				6DF931F01DD0483000F49AA2 /* VehicleDetailsViewController.m in Sources */,
+				6DF932121DD048B900F49AA2 /* VehicleParkingFeesTableViewCell.m in Sources */,
+				6DF932141DD048B900F49AA2 /* VehicleInsuranceTableViewCell.m in Sources */,
+				6DF931F31DD0483B00F49AA2 /* VehicleParkingFessViewController.m in Sources */,
+				6DF931FC1DD0485A00F49AA2 /* InvoiceViewController.m in Sources */,
+				6DF932081DD0487D00F49AA2 /* EditClientDetailsViewController.m in Sources */,
+				6DF931BE1DD046CF00F49AA2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DF931CA1DD046D000F49AA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DF931CB1DD046D000F49AA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DF931CE1DD046D000F49AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DF931CF1DD046D000F49AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DF931D11DD046D000F49AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C28W5U8WSE;
+				INFOPLIST_FILE = "Businesspad Designwork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "madu.Businesspad-Designwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DF931D21DD046D000F49AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C28W5U8WSE;
+				INFOPLIST_FILE = "Businesspad Designwork/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "madu.Businesspad-Designwork";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DF931B41DD046CF00F49AA2 /* Build configuration list for PBXProject "Businesspad Designwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF931CE1DD046D000F49AA2 /* Debug */,
+				6DF931CF1DD046D000F49AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF931D01DD046D000F49AA2 /* Build configuration list for PBXNativeTarget "Businesspad Designwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF931D11DD046D000F49AA2 /* Debug */,
+				6DF931D21DD046D000F49AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DF931B11DD046CF00F49AA2 /* Project object */;
+}
