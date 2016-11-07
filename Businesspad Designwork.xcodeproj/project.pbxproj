@@ -130,6 +130,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB6CD0F1DD04EB50043776E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6DF931BF1DD046CF00F49AA2 /* AppDelegate.h */,
+				6DF931C01DD046CF00F49AA2 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		6DF931B01DD046CF00F49AA2 = {
 			isa = PBXGroup;
 			children = (
@@ -149,8 +158,7 @@
 		6DF931BB1DD046CF00F49AA2 /* Businesspad Designwork */ = {
 			isa = PBXGroup;
 			children = (
-				6DF931BF1DD046CF00F49AA2 /* AppDelegate.h */,
-				6DF931C01DD046CF00F49AA2 /* AppDelegate.m */,
+				2EB6CD0F1DD04EB50043776E /* AppDelegate */,
 				6DF931D31DD047BF00F49AA2 /* ViewController.h */,
 				6DF931D41DD047BF00F49AA2 /* ViewController.m */,
 				6DF931D61DD047CE00F49AA2 /* SignUpViewController.h */,
@@ -486,6 +494,7 @@
 				6DF931D21DD046D000F49AA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
