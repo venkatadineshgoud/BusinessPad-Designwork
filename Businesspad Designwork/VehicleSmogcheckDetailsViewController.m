@@ -7,6 +7,7 @@
 //
 
 #import "VehicleSmogcheckDetailsViewController.h"
+#import "VehicleSmogCheckUpdateViewController.h"
 
 @interface VehicleSmogcheckDetailsViewController ()
 @property (weak, nonatomic) IBOutlet UIView *titleView;
@@ -60,5 +61,8 @@
 - (IBAction)DeleteBtn:(UIButton *)sender {
 }
 - (IBAction)UpdateBtn:(UIButton *)sender {
+    UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    VehicleSmogCheckUpdateViewController *vehicleSmogCheckUpdateViewController=[story instantiateViewControllerWithIdentifier:@"VehicleSmogCheckUpdateViewController"];
+    [self presentViewController:vehicleSmogCheckUpdateViewController animated:NO completion:nil];
 }
 @end

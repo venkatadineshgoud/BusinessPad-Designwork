@@ -91,10 +91,10 @@
     [self presentViewController:vehicleDetailsViewController animated:NO completion:nil];
 }
 - (IBAction)BackBtn:(UIButton *)sender {
-   // [self dismissViewControllerAnimated:NO completion:nil];
-    UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    sidemenuViewController *sidemenusidemenVC=[story instantiateViewControllerWithIdentifier:@"sidemenusidemenVC"];
-    [self presentViewController:sidemenusidemenVC animated:NO completion:nil];
+   [self dismissViewControllerAnimated:NO completion:nil];
+//    UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//    sidemenuViewController *sidemenusidemenVC=[story instantiateViewControllerWithIdentifier:@"sidemenusidemenVC"];
+//    [self presentViewController:sidemenusidemenVC animated:NO completion:nil];
 
 }
 - (IBAction)vehicleDefaultBtn1:(UIButton *)sender {

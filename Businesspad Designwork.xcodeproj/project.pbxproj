@@ -20,6 +20,13 @@
 		2EB6CD401DD058040043776E /* VehicleInsuranceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6CD3E1DD058040043776E /* VehicleInsuranceTableViewCell.m */; };
 		2EB6CD451DD05CBA0043776E /* VehicleSmogViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6CD431DD05CBA0043776E /* VehicleSmogViewTableViewCell.m */; };
 		2EB6CD461DD05CBA0043776E /* VehicleSmogViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6CD441DD05CBA0043776E /* VehicleSmogViewTableViewCell.xib */; };
+		2EB6CD4F1DD071270043776E /* ExpensesClassifiedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6CD4D1DD071270043776E /* ExpensesClassifiedTableViewCell.m */; };
+		2EB6CD501DD071270043776E /* ExpensesClassifiedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6CD4E1DD071270043776E /* ExpensesClassifiedTableViewCell.xib */; };
+		2EB6CD551DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6CD531DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.m */; };
+		2EB6CD561DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6CD541DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.xib */; };
+		2EB6CD5C1DD098570043776E /* SectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EB6CD5B1DD098570043776E /* SectionView.xib */; };
+		2EB6CD5F1DD09A500043776E /* SectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6CD5E1DD09A500043776E /* SectionHeader.m */; };
+		2EB6CD711DD0AE210043776E /* ExpensesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB6CD701DD0AE210043776E /* ExpensesViewController.m */; };
 		6DF931BE1DD046CF00F49AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931BD1DD046CF00F49AA2 /* main.m */; };
 		6DF931C11DD046CF00F49AA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF931C01DD046CF00F49AA2 /* AppDelegate.m */; };
 		6DF931CC1DD046D000F49AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF931CA1DD046D000F49AA2 /* LaunchScreen.storyboard */; };
@@ -78,6 +85,17 @@
 		2EB6CD421DD05CBA0043776E /* VehicleSmogViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleSmogViewTableViewCell.h; sourceTree = "<group>"; };
 		2EB6CD431DD05CBA0043776E /* VehicleSmogViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleSmogViewTableViewCell.m; sourceTree = "<group>"; };
 		2EB6CD441DD05CBA0043776E /* VehicleSmogViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleSmogViewTableViewCell.xib; sourceTree = "<group>"; };
+		2EB6CD4C1DD071270043776E /* ExpensesClassifiedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesClassifiedTableViewCell.h; sourceTree = "<group>"; };
+		2EB6CD4D1DD071270043776E /* ExpensesClassifiedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesClassifiedTableViewCell.m; sourceTree = "<group>"; };
+		2EB6CD4E1DD071270043776E /* ExpensesClassifiedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpensesClassifiedTableViewCell.xib; sourceTree = "<group>"; };
+		2EB6CD521DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesUnClassifiedTableViewCell.h; sourceTree = "<group>"; };
+		2EB6CD531DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesUnClassifiedTableViewCell.m; sourceTree = "<group>"; };
+		2EB6CD541DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpensesUnClassifiedTableViewCell.xib; sourceTree = "<group>"; };
+		2EB6CD5B1DD098570043776E /* SectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionView.xib; sourceTree = "<group>"; };
+		2EB6CD5D1DD09A500043776E /* SectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeader.h; sourceTree = "<group>"; };
+		2EB6CD5E1DD09A500043776E /* SectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeader.m; sourceTree = "<group>"; };
+		2EB6CD6F1DD0AE210043776E /* ExpensesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpensesViewController.h; sourceTree = "<group>"; };
+		2EB6CD701DD0AE210043776E /* ExpensesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpensesViewController.m; sourceTree = "<group>"; };
 		6DF931B91DD046CF00F49AA2 /* Businesspad Designwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Businesspad Designwork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF931BD1DD046CF00F49AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DF931BF1DD046CF00F49AA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,6 +172,8 @@
 		2EB6CD141DD051170043776E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2EB6CD571DD071790043776E /* ExpensesUnClassifiedTableViewCell */,
+				2EB6CD511DD0712F0043776E /* ExpensesClassifiedTableViewCell */,
 				2EB6CD471DD05CC10043776E /* VehicleSmogViewTableViewCell */,
 				2EB6CD411DD0580A0043776E /* VehicleInsuranceTableViewCell */,
 				2EB6CD341DD0570B0043776E /* VehicleParkingFeesTableViewCell */,
@@ -164,6 +184,7 @@
 		2EB6CD161DD052420043776E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2EB6CD481DD06ACC0043776E /* ExpensesViewController */,
 				2EB6CD301DD056470043776E /* VehicleParkingFessViewController */,
 				2EB6CD2C1DD0560D0043776E /* VehicleDetailsViewController */,
 				2EB6CD281DD055C70043776E /* VehicleViewController */,
@@ -293,6 +314,35 @@
 			name = VehicleSmogViewTableViewCell;
 			sourceTree = "<group>";
 		};
+		2EB6CD481DD06ACC0043776E /* ExpensesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2EB6CD6F1DD0AE210043776E /* ExpensesViewController.h */,
+				2EB6CD701DD0AE210043776E /* ExpensesViewController.m */,
+			);
+			name = ExpensesViewController;
+			sourceTree = "<group>";
+		};
+		2EB6CD511DD0712F0043776E /* ExpensesClassifiedTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2EB6CD4C1DD071270043776E /* ExpensesClassifiedTableViewCell.h */,
+				2EB6CD4D1DD071270043776E /* ExpensesClassifiedTableViewCell.m */,
+				2EB6CD4E1DD071270043776E /* ExpensesClassifiedTableViewCell.xib */,
+			);
+			name = ExpensesClassifiedTableViewCell;
+			sourceTree = "<group>";
+		};
+		2EB6CD571DD071790043776E /* ExpensesUnClassifiedTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2EB6CD521DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.h */,
+				2EB6CD531DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.m */,
+				2EB6CD541DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.xib */,
+			);
+			name = ExpensesUnClassifiedTableViewCell;
+			sourceTree = "<group>";
+		};
 		6DF931B01DD046CF00F49AA2 = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +384,9 @@
 				6DF931CD1DD046D000F49AA2 /* Info.plist */,
 				6DF932301DD0495700F49AA2 /* Assets.xcassets */,
 				6DF931BC1DD046CF00F49AA2 /* Supporting Files */,
+				2EB6CD5D1DD09A500043776E /* SectionHeader.h */,
+				2EB6CD5E1DD09A500043776E /* SectionHeader.m */,
+				2EB6CD5B1DD098570043776E /* SectionView.xib */,
 			);
 			path = "Businesspad Designwork";
 			sourceTree = "<group>";
@@ -431,10 +484,13 @@
 				6DF9322F1DD048E600F49AA2 /* ProfileCat.jpg in Resources */,
 				6DF9322E1DD048E600F49AA2 /* gmail-account.png in Resources */,
 				6DF932241DD048E600F49AA2 /* login.png in Resources */,
+				2EB6CD561DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.xib in Resources */,
 				6DF932341DD049D700F49AA2 /* Main.storyboard in Resources */,
 				6DF932311DD0495700F49AA2 /* Assets.xcassets in Resources */,
 				2EB6CD461DD05CBA0043776E /* VehicleSmogViewTableViewCell.xib in Resources */,
 				6DF932261DD048E600F49AA2 /* mail-account.png in Resources */,
+				2EB6CD5C1DD098570043776E /* SectionView.xib in Resources */,
+				2EB6CD501DD071270043776E /* ExpensesClassifiedTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +503,7 @@
 			files = (
 				6DF931F61DD0484700F49AA2 /* REPagedScrollView.m in Sources */,
 				2EB6CD331DD056840043776E /* VehicleParkingFessViewController.m in Sources */,
+				2EB6CD551DD0716A0043776E /* ExpensesUnClassifiedTableViewCell.m in Sources */,
 				2EB6CD1E1DD053360043776E /* VehicleSmogcheckDetailsViewController.m in Sources */,
 				6DF932021DD0486D00F49AA2 /* AddItemsViewController.m in Sources */,
 				6DF931E41DD0480600F49AA2 /* LoginViewController.m in Sources */,
@@ -454,6 +511,7 @@
 				6DF931FF1DD0486300F49AA2 /* AddInvoiceViewController.m in Sources */,
 				6DF931C11DD046CF00F49AA2 /* AppDelegate.m in Sources */,
 				6DF932051DD0487400F49AA2 /* AddClientDetailsViewController.m in Sources */,
+				2EB6CD5F1DD09A500043776E /* SectionHeader.m in Sources */,
 				2EB6CD401DD058040043776E /* VehicleInsuranceTableViewCell.m in Sources */,
 				6DF931DE1DD047F200F49AA2 /* RegistrationPhoneViewController.m in Sources */,
 				6DF931EA1DD0481900F49AA2 /* sidemenuViewController.m in Sources */,
@@ -462,8 +520,10 @@
 				2EB6CD2F1DD0563A0043776E /* VehicleDetailsViewController.m in Sources */,
 				6DF931F91DD0485000F49AA2 /* MyAccountsViewController.m in Sources */,
 				6DF931D81DD047CE00F49AA2 /* SignUpViewController.m in Sources */,
+				2EB6CD711DD0AE210043776E /* ExpensesViewController.m in Sources */,
 				2EB6CD211DD0535E0043776E /* VehicleInsuranceUpdateViewController.m in Sources */,
 				2EB6CD1B1DD0530F0043776E /* VehicleSmogCheckUpdateViewController.m in Sources */,
+				2EB6CD4F1DD071270043776E /* ExpensesClassifiedTableViewCell.m in Sources */,
 				2EB6CD241DD0536F0043776E /* VehicleInsuranceDetailsViewController.m in Sources */,
 				6DF931E71DD0481000F49AA2 /* LandingViewController.m in Sources */,
 				6DF931FC1DD0485A00F49AA2 /* InvoiceViewController.m in Sources */,
