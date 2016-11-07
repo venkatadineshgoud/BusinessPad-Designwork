@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BBE65D57CF6B48752595439D9420C3A00676A526",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "633F43060E12DB5A872DBDCF02F4A7B78D3480C9" : 9223372036854775807,
+    "BBE65D57CF6B48752595439D9420C3A00676A526" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D6BB56B0-882D-417F-A7AA-A8C89386798F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "633F43060E12DB5A872DBDCF02F4A7B78D3480C9" : "..\/Desktop\/Businesspad",
+    "BBE65D57CF6B48752595439D9420C3A00676A526" : "BusinessPad-Designwork\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Businesspad Designwork",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Businesspad Designwork.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gopikrishnach9\/BusinessPad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "633F43060E12DB5A872DBDCF02F4A7B78D3480C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/venkatadineshgoud\/BusinessPad-Designwork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBE65D57CF6B48752595439D9420C3A00676A526"
+    }
+  ]
+}

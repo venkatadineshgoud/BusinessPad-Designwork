@@ -12,6 +12,8 @@
 #import "VehicleParkingFeesTableViewCell.h"
 #import "VehicleInsuranceTableViewCell.h"
 #import "VehicleSmogViewTableViewCell.h"
+#import "VehicleInsuranceDetailsViewController.h"
+#import "VehicleSmogcheckDetailsViewController.h"
 
 @interface VehicleDetailsViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *vehicleSmogTableView;
@@ -46,12 +48,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor colorWithRed:30/255.0 green:30/255.0 blue:30/255.0 alpha:1];
+
      self.backgroundView.backgroundColor=[UIColor colorWithRed:30/255.0 green:30/255.0 blue:30/255.0 alpha:1];
     self.scroll.contentSize=CGSizeMake(self.view.frame.size.width, self.view.frame.size.height+100);
     _titleView.backgroundColor=[UIColor colorWithRed:46/255.0 green:46/255.0 blue:46/255.0 alpha:1];
     _indexView.backgroundColor=[UIColor colorWithRed:21/255.0 green:21/255.0 blue:21/255.0 alpha:1];
     _indexColourLbl.backgroundColor=[UIColor colorWithRed:24/255.0 green:140/255.0 blue:252/255.0 alpha:1];
  self.carInfoView.backgroundColor=[UIColor colorWithRed:30/255.0 green:30/255.0 blue:30/255.0 alpha:1];
+    self.parkingFeesView.backgroundColor=[UIColor colorWithRed:30/255.0 green:30/255.0 blue:30/255.0 alpha:1];
+    self.smogCheckView.backgroundColor=[UIColor colorWithRed:30/255.0 green:30/255.0 blue:30/255.0 alpha:1];
+
+
     self.indexScrollView.contentSize=CGSizeMake(self.view.frame.size.width+250, 0);
         self.parkingFeesView.hidden=YES;
     self.parkingFeesColourLbl.hidden=YES;
@@ -109,6 +117,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;
@@ -158,6 +167,24 @@
         VehicleParkingFessViewController *vehicleParkingFessViewController=[story instantiateViewControllerWithIdentifier:@"VehicleParkingFessViewController"];
         [self presentViewController:vehicleParkingFessViewController animated:NO completion:nil];
     }
+    else if (tableView.tag==2)
+    {
+        UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        VehicleInsuranceDetailsViewController *vehicleInsuranceDetailsViewController=[story instantiateViewControllerWithIdentifier:@"VehicleInsuranceDetailsViewController"];
+        [self presentViewController:vehicleInsuranceDetailsViewController animated:NO completion:nil];
+
+    }else if (tableView.tag==3)
+    {
+        UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        VehicleSmogcheckDetailsViewController *vehicleSmogcheckDetailsViewController=[story instantiateViewControllerWithIdentifier:@"VehicleSmogcheckDetailsViewController"];
+        [self presentViewController:vehicleSmogcheckDetailsViewController animated:NO completion:nil];
+    }
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self.insuranceTableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self.vehicleSmogTableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+   
+
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {if(tableView.tag==1)
@@ -195,6 +222,10 @@ else{
     self.parkingFeesLbl.textColor=[UIColor darkGrayColor];
     self.carInfoLbl.textColor=[UIColor whiteColor];
      self.insuranceColourLbl.hidden=YES;
+    self.smogCheckColourLbl.hidden=YES;
+    self.smockcheckLbl.textColor=[UIColor darkGrayColor];
+    self.insuranceLbl.textColor=[UIColor darkGrayColor];
+
     
 }
 
@@ -207,6 +238,11 @@ else{
     self.parkingFeesLbl.textColor=[UIColor whiteColor];
      self.carInfoLbl.textColor=[UIColor darkGrayColor];
      self.insuranceColourLbl.hidden=YES;
+    self.smogCheckColourLbl.hidden=YES;
+    self.smockcheckLbl.textColor=[UIColor darkGrayColor];
+    self.insuranceLbl.textColor=[UIColor darkGrayColor];
+    
+
 
 }
 -(void)handleSingleTap3:(UITapGestureRecognizer *)sender
@@ -220,6 +256,8 @@ else{
     self.insuranceColourLbl.hidden=NO;
      self.insuranceView.hidden=NO;
     self.insuranceLbl.textColor=[UIColor whiteColor];
+    self.smogCheckColourLbl.hidden=YES;
+    self.smockcheckLbl.textColor=[UIColor darkGrayColor];
 
 }
 -(void)handleSingleTap4:(UITapGestureRecognizer *)sender
