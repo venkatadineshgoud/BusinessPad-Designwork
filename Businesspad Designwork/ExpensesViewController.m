@@ -9,6 +9,7 @@
 #import "ExpensesViewController.h"
 #import "ExpensesUnClassifiedTableViewCell.h"
 #import "ExpensesClassifiedTableViewCell.h"
+#import "AddExpensesViewController.h"
 
 @interface ExpensesViewController ()
 @property (weak, nonatomic) IBOutlet UIScrollView *scroll;
@@ -26,6 +27,10 @@
 @property (weak, nonatomic) IBOutlet UITableView *unclassifiedTableView;
 - (IBAction)unclassifiedBtn:(UIButton *)sender;
 - (IBAction)BackBtn:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *classifiedLbl;
+@property (weak, nonatomic) IBOutlet UILabel *unClassifiedLbl;
+- (IBAction)AddBtn:(UIButton *)sender;
+
 @end
 
 @implementation ExpensesViewController
@@ -45,21 +50,28 @@
     [self.unclassifiedTableView registerNib:[UINib nibWithNibName:@"ExpensesUnClassifiedTableViewCell" bundle:nil] forCellReuseIdentifier:@"ExpensesUnClassifiedTableViewCell"];
     
     
-    [self.classifiedBtn setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal ];
-    [self.classifiedBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
     
     
-    [self.unClassifiedBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal ];
-    [self.unclassifiedBtn setTitleColor:[UIColor greenColor] forState:UIControlStateSelected];
     
-    [self.unclassifiedBtn addTarget:self action:@selector(onclick:) forControlEvents:UIControlEventTouchUpInside];
+    UITapGestureRecognizer *singleFingerTap =
+    [[UITapGestureRecognizer alloc] initWithTarget:self
+                                            action:@selector(handleSingleTap:)];
+    singleFingerTap.numberOfTapsRequired=1;
+    self.classifiedLbl.userInteractionEnabled=YES;
+    [self.classifiedLbl addGestureRecognizer:singleFingerTap];
+    
+    
+    UITapGestureRecognizer *singleFingerTap1 =
+    [[UITapGestureRecognizer alloc] initWithTarget:self
+                                            action:@selector(handleSingleTap1:)];
+    singleFingerTap1.numberOfTapsRequired=1;
+    self.unClassifiedLbl.userInteractionEnabled=YES;
+    [self.unClassifiedLbl addGestureRecognizer:singleFingerTap1];
+
 
     // Do any additional setup after loading the view.
 }
--(void)onclick:(id)sender{
-    UIButton *button = (UIButton *)sender;
-    button.selected = !button.selected;
-}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -70,7 +82,7 @@
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 4;
     
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -79,14 +91,14 @@
         ExpensesUnClassifiedTableViewCell *cell1=(ExpensesUnClassifiedTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"ExpensesUnClassifiedTableViewCell" forIndexPath:indexPath];
         
         cell1.contentView.backgroundColor=[UIColor whiteColor];
- 
+  // cell1.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         return cell1;
     }
     else{
         ExpensesClassifiedTableViewCell *cell=(ExpensesClassifiedTableViewCell *)[tableView dequeueReusableCellWithIdentifier:@"ExpensesClassifiedTableViewCell" forIndexPath:indexPath];
         
         cell.contentView.backgroundColor=[UIColor whiteColor];
-       
+         //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         return cell;
 
         
@@ -103,7 +115,7 @@
     /* Create custom view to display section header... */
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 150, 40)];
     [label setFont:[UIFont boldSystemFontOfSize:12]];
-    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(self.classifiedTableView.frame.size.width-100, 0, 100, 40)];
+    UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(self.classifiedTableView.frame.size.width-90, 0, 100, 40)];
     [label setFont:[UIFont boldSystemFontOfSize:15]];
     [label1 setFont:[UIFont boldSystemFontOfSize:15]];
     label1.textAlignment = NSTextAlignmentCenter;
@@ -128,6 +140,27 @@
 
     
 }
+-(void)handleSingleTap:(UITapGestureRecognizer *)sender
+{
+    self.classifiedView.hidden=NO;
+    self.classifiedColourLbl.hidden=NO;
+    self.unclassifiedView.hidden=YES;
+    self.unclassifiedColourLbl.hidden=YES;
+    self.classifiedLbl.textColor=[UIColor whiteColor];
+     self.unClassifiedLbl.textColor=[UIColor darkGrayColor];
+    
+}
+-(void)handleSingleTap1:(UITapGestureRecognizer *)sender
+{
+    self.classifiedView.hidden=YES;
+    self.classifiedColourLbl.hidden=YES;
+    self.unclassifiedView.hidden=NO;
+    self.unclassifiedColourLbl.hidden=NO;
+    self.classifiedLbl.textColor=[UIColor darkGrayColor];
+    self.unClassifiedLbl.textColor=[UIColor whiteColor];
+    
+}
+
 /*
 #pragma mark - Navigation
 
@@ -141,22 +174,14 @@
 {
     return UIStatusBarStyleLightContent;
 }
-- (IBAction)classifiedBtn:(UIButton *)sender {
-    self.classifiedView.hidden=NO;
-    self.classifiedColourLbl.hidden=NO;
-    self.unclassifiedView.hidden=YES;
-    self.unclassifiedColourLbl.hidden=YES;
-
-}
-- (IBAction)unclassifiedBtn:(UIButton *)sender {
-    self.classifiedView.hidden=YES;
-    self.classifiedColourLbl.hidden=YES;
-    self.unclassifiedView.hidden=NO;
-    self.unclassifiedColourLbl.hidden=NO;
-
-}
-
 - (IBAction)BackBtn:(UIButton *)sender {
     [self dismissViewControllerAnimated:NO completion:nil];
 }
+- (IBAction)AddBtn:(UIButton *)sender {
+    UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AddExpensesViewController *addExpensesViewController=[story instantiateViewControllerWithIdentifier:@"AddExpensesViewController"];
+    [self presentViewController:addExpensesViewController animated:NO completion:nil];
+}
+
+
 @end
